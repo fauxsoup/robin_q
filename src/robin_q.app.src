@@ -1,0 +1,12 @@
+{application, robin_q,
+ [
+  {description, ""},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { robin_q_app, []}},
+  {env, []}
+ ]}.
